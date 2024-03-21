@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+.btnn {
+  background-color: #3498db; /* Azul brillante */
+  color: #fff; /* Blanco */
+  border: none;
+  border-radius: 20px; /* Radio de borde redondeado */
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16); /* Sombra sutil */
+  padding: 10px 20px; /* Ajusta el relleno según sea necesario */
+}
+
+.btnn:hover {
+  background-color: #2c7ab7; /* Cambia el color al pasar el cursor */
+}
+  
+  .btnn:active {
+    background-color: #63696d; /* Azul oscuro al hacer clic */
+    box-shadow: 0 5px 10px rgba(197, 53, 53, 0.25); /* Sombra más profunda al hacer clic */
+  }
+  
+  .acceder-button {
+    position: absolute;
+    top: 10px; /* Ajusta la posición verticalmente */
+    right: 10px; /* Ajusta la posición horizontalmente */
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.acceder-button:hover {
+    background-color: darkgreen; /* Cambio de color al pasar el ratón */
+}
+.card-img-top {
+  transition: transform 0.3s ease; /* Agregamos una transición suave */
+}
+.card-img-top:hover {
+  transform: scale(1.1); /* Ampliar la imagen al 110% al pasar el cursor sobre ella */
+}
+.masthead {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Ajusta la altura según tus necesidades */
+  overflow: hidden;
+}
+
+.masthead-slides {
+  display: flex;
+  width: 300%; /* Ancho total igual al número de imágenes multiplicado por 100% */
+  animation: slide-left 10s infinite linear; /* Animación de desplazamiento hacia la izquierda */
+}
+
+.masthead-slide {
+  flex: 1;
+  background-size: cover;
+  background-position: center;
+}
+
+@keyframes slide-left {
+  0% {
+      transform: translateX(0%);
+  }
+  100% {
+      transform: translateX(-200%); /* Desplazamiento hacia la izquierda */
+  }
+}
+
+.body1, .html1 {
+  height: 100%;
+  margin: 0;
+}
+
+.container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-top: 200px;
+}
+
+.login-container1 {
+  width: 300px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group1 {
+  margin-bottom: 20px;
+}
+
+.form-group1 label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group1 input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.image-container1 {
+  margin-left: 20px; /* Espacio entre el login y la imagen */
+}
+
+.image-container1 img {
+  width: 300px; /* Ancho deseado de la imagen */
+  border-radius: 8px; /* Borde redondeado */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+
+
